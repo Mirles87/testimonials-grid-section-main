@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+main {
+  width: 1500px;
+  padding: 80px 200px;
+}
+
+#izquierda {
+  width: 80%;
+}
+#derechaLargo {
+  width: 20%;
+  margin: 20px 40px;
+  color: hsl(212, 12%, 30%);
+  box-shadow: rgb(0 0 0 / 20%) 10px 15px 64px 14px;
+  margin: 10px 20px;
+  padding: 20px 40px 30px 40px;
+}
+div {
+  border-radius: 10px;
+}
+#arriba {
+  display: flex;
+  flex-direction: row;
+  color: hsl(0, 100%, 99%);
+}
+h2 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  margin: 20px auto;
+}
+img {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: white;
+  margin: 15px 20px 0px 0px;
+}
+p {
+  font-size: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+#Daniel {
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-size: 130px;
+  background-position-x: 420px;
+  background-color: hsl(263, 55%, 52%);
+  margin: 10px 20px;
+  padding: 20px 40px 30px 40px;
+  box-shadow: rgb(0 0 0 / 20%) 10px 15px 99px 3px;
+}
+#centrar {
+  display: flex;
+  flex-direction: row;
+}
+#centrar2 {
+  margin-top: 10px;
+}
+#Jonathan {
+  background-color: hsl(217, 19%, 35%);
+  margin: 10px 20px;
+  padding: 20px 40px 30px 40px;
+}
+#Jeanette {
+  background-color: hsl(0, 0%, 100%);
+  margin: 10px 20px;
+  padding: 20px 40px 30px 40px;
+  color: hsl(212, 12%, 30%);
+  box-shadow: rgb(0 0 0 / 20%) 10px 15px 64px 14px;
+}
+#Patrick {
+  background-color: hsl(219, 29%, 14%);
+  margin: 10px 20px;
+  padding: 20px 40px 30px 40px;
+  color: hsl(0, 100%, 99%);
+}
+#morado {
+  border: 2px solid;
+  border-color: hsl(263, 55%, 52%);
+}
+#abajo {
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
